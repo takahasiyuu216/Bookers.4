@@ -1,0 +1,10 @@
+<h6>Book was successfully created</h6>
+
+<h5>title:</h5>
+<p><%= @book.title %></p>
+<h5>body:</h5>
+<p><%= @book.body %></p>
+
+<%= link_to "edit", edit_book_path(@book) %>
+|
+<%= link_to "back", books_path %>
